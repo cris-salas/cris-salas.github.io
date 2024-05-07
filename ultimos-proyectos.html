@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="style/styles-componets.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__div">
+    		<a class="header__div--img" href="index.html">
+    			<img src="img/bad-dog-studio-logo.png" alt="" class="header__img">
+    		</a>
+    		<button class="hamburger hamburger--emphatic" type="button">
+    			<span class="hamburger-box">
+    				<span class="hamburger-inner"></span>
+    			</span>
+    		</button>
+    		<nav class="header__nav nav">
+    			<div class="nav__div">
+    				<a href="index.html" class="nav__a">inicio</a>
+    				<div class="dropdown-hamburguer">
+                        <buttom class="header__a--dom" id="buttom-dropdown-hamburguer">
+                            Sitios <i class="bi bi-caret-down-fill"></i>
+                        </buttom>
+                        <nav class="nav-dropdown-hamburguer">
+                            <a href="ultimos-proyectos.html" class="a__dropdown-hamburguer">ultimos protectos</a>
+                            <a href="ultimos-proyectos.html#single-page" class="a__dropdown-hamburguer">sitios single page</a>
+                            <a href="ultimos-proyectos.html#multi-page" class="a__dropdown-hamburguer">sitios multi page</a>
+                        </nav>
+                    </div>
+    				<a href="clients.html" class="nav__a">clientes</a>
+                    <a href="comencemos.html" class="nav__a">comencemos</a>
+                    <a href="interesado.html" class="nav__a">¿interesados?</a>
+    			</div>
+    		</nav>
+    	</div>
+    </header>
+    <main class="main-ult-proyect">
+    	<section class="section__carousel">
+    		<h1 class="section__carousel-h1 text-align">
+    			Sitios Web 100% Responsivos
+    		</h1>
+    		<p class="section__carousel-p text-align">
+    			Desarrollo sitios de una sóla y de múltiples páginas.
+    		</p>
+    		<div class="carousel">
+    			<div class="carousel__container">
+    				<div class="carousel__container-item visibility">
+    					<img src="img/work-slide-1.jpg" class="img-carousel" alt="...">
+    				</div>
+    				<div class="carousel__container-item">
+    					<img src="img/work-slide-2.jpg" class="img-carousel" alt="...">
+    				</div>
+    				<div class="carousel__container-item">
+    					<img src="img/work-slide-3.jpg" class="img-carousel" alt="...">
+    				</div>
+    			</div>
+    			<button class="buttom-pre buttom-carousel" type="button">
+    				<span class="span-carousel"><i class="bi bi-arrow-left-circle bi-pre"></i></span>
+    			</button>
+    			<button class="buttom-next buttom-carousel" type="button">
+    				<span class="span-carousel"><i class="bi bi-arrow-right-circle bi-next"></i></span>
+    			</button>
+    		</div>	
+    		<template id="dropdown">
+    			<div class="dropdown">
+    				<buttom class="header__a--dom" id="buttom-dropdown">
+    					Sitios <i class="bi bi-caret-down-fill"></i>
+    				</buttom>
+    				<nav class="nav-dropdown">
+    					<a href="ultimos-proyectos.html" class="a__dropdown">ultimos protectos</a>
+    					<a href="#single-page" class="a__dropdown">sitios single page</a>
+    					<a href="#multi-page" class="a__dropdown">sitios multi page</a>
+    				</nav>
+    			</div>
+    		</template>	
+        </section>
+    	<section class="section__ult-proyect" id="single-page">
+    		<div class="bg-opacity">
+    			<article class="article container">
+    				<a href="interesado.html" class="bottom-links article__a">Desde $400 USD</a>
+    				<h2 class="ult__h2">Sitio de una sola pagina</h2>
+    				<small class="ult__small">El precio puede ser más bajo (o más alto) dependiendo de los requisitos de su proyecto.</small>
+    				<p class="ult__p">Una <b>sola página</b> o <b>página de destino</b> es un sitio web que consta de una página. Perfecto para presentar a tu empresa, organización, producto o servicio de una manera hermosa y moderna en Internet.</p>
+    				<a href="" class="ult__a">solite una cotizacion ahora</a>
+    				<div class="ult__container__div">
+    					<div class="ult__div">
+    						<p class="ult__div-p"> Sitio web de una sola página.</p>
+    						<p class="ult__div-p">100% responsivo</p>
+    						<p class="ult__div-p">Diseño personalizado</p>
+    					</div>
+    					<div class="ult__div">
+    						<p class="ult__div-p">correcvion de estilo</p>
+    						<p class="ult__div-p">edicion de imagenes</p>
+    						<p class="ult__div-p">soporte</p>
+    					</div>
+    				</div>
+    			</article>
+    		</div>
+    	</section>
+    	<section class="section__ult-proyect" id="multi-page">
+    		<div class="bg-opacity">
+                 <article class="article container">
+    				<a href="interesado.html" class="bottom-links article__a">Desde $1000 USD</a>
+    				<h2 class="ult__h2">sitio multipagina</h2>
+    				<small class="ult__small">El precio puede ser más bajo (o más alto) dependiendo de los requisitos de su proyecto.</small>
+    				<p class="ult__p">un <b>sitio web de varias páginas</b> consta de dos o más páginas. Este formato es útil si tiene ciertos elementos que desea mantener separados por páginas y urls diferentes.</p>
+    				<a href="" class="ult__a">solite una cotizacion ahora </a>
+    				<div class="ult__container__div">
+    					<div class="ult__div">
+    						<p class="ult__div-p"> 2 a 6 paginas</p>
+    						<p class="ult__div-p">100% responsivo</p>
+    						<p class="ult__div-p">Diseño personalizado</p>
+    					</div>
+    					<div class="ult__div">
+    						<p class="ult__div-p">correcvion de estilo</p>
+    						<p class="ult__div-p">edicion de imagenes</p>
+    						<p class="ult__div-p">soporte</p>
+    					</div>
+    				</div>
+    			 </article>
+    		</div>
+    	</section>
+    </main>
+    <footer class="footer">
+        <div class="footer__icons container">
+            <a href="" class="footer__icons-a"><i class="bi bi-facebook"></i></a>
+            <a href="" class="footer__icons-a"><i class="bi bi-github"></i></a>
+            <a href="" class="footer__icons-a"><i class="bi bi-twitter"></i></a>
+            <a href="" class="footer__icons-a"><i class="bi bi-youtube"></i></a>
+            <a href="" class="footer__icons-a"><i class="bi bi-instagram"></i></a>
+            <a href="" class="footer__icons-a"><i class="bi bi-messenger"></i></a>
+            <a href="" class="footer__icons-a"><i class="bi bi-whatsapp"></i></a>
+        </div>
+        <div class="footer__div">
+            <small class="footer__div-small">
+                © 2023 @jonmircha. Hecho con fines educativos, tomando inspiración del sitio <a href="https://www.studiocorvus.com" target="__blank" class="footer__div-a">estudio corvus</a>
+            </small>
+        </div>
+    </footer>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
